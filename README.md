@@ -1,6 +1,6 @@
-# React Avançado - Landing Page API
+# Won Games API
 
-This is the API to create the [React Avançado Landing Page](https://paulajbastos-react-avancado-landpage.netlify.app/).
+This is the API to create the Won Games.
 
 ## Requirements
 
@@ -104,7 +104,7 @@ GRANT ALL PRIVILEGES ON DATABASE wongames TO wongames;
 
 ## Copy localGuideDb to local postgres
 ```
-➜ ~ psql -h 127.0.0.1 -U strapi -d strapi -W < strapi_dump.sql
+➜ ~ psql -h 127.0.0.1 -U wongames -d wongames -W < wongames_dump.sql
 ```
 
 ## Login to Local Strapi
@@ -140,7 +140,7 @@ heroku config:set ADMIN_JWT_SECRET=gerarToken
 ```
 ## Save DB in Local
 ```
-PGPASSWORD=strapi123 pg_dump -Fc --no-acl --no-owner -h localhost -U strapi strapi > strapi-local.dump
+PGPASSWORD=wongames123 pg_dump -Fc --no-acl --no-owner -h localhost -U wongames wongames > wongames-local.dump
 ```
 
 

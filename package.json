@@ -1,5 +1,5 @@
 {
-  "name": "api",
+  "name": "wongames-api",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -27,7 +27,7 @@
     "strapi-utils": "3.2.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Paula Junqueira"
   },
   "strapi": {
     "uuid": "4d4e14bb-611f-4025-987b-58f12bc65cda"
