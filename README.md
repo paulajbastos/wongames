@@ -22,6 +22,12 @@ And run using:
 yarn develop
 ```
 
+Run to see customized changes
+
+```
+yearn develop --watch-admin
+```
+
 The urls to access are:
 
 - `http://localhost:1337/admin` - The Dashboard to create and populate data
