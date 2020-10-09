@@ -15,9 +15,9 @@ function LeftMenuFooter({ version }) {
 
   return (
     <Wrapper>
-      <div>
+      <div className="poweredBy">
+        <span>Mantido por </span>
         <a
-          className="poweredBy"
           key="website"
           href="https://reactavancado.com.br"
           target="_blank"
