@@ -16,8 +16,8 @@ module.exports = {
       ...ctx.query,
     };
 
-    ctx.send("Finished populating!")
     await strapi.services.game.populate(options);
+    ctx.send("Finished populating!")
 
 
   }
